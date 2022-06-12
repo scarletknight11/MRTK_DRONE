@@ -1,0 +1,1 @@
+D:\MRTK_DRONE\App\MRTK_Drone_Control\MRTK_Drone_Control.vcxproj;arm

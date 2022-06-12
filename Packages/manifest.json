@@ -1,5 +1,15 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "Magic Leap",
+      "url": "https://registry.npmjs.org",
+      "scopes": [
+        "com.magicleap"
+      ]
+    }
+  ],
   "dependencies": {
+    "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.4.1.tgz",
     "com.microsoft.mixedreality.toolkit.examples": "file:MixedReality/com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz",
     "com.microsoft.mixedreality.toolkit.extensions": "file:MixedReality/com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz",
     "com.microsoft.mixedreality.toolkit.foundation": "file:MixedReality/com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz",
@@ -13,6 +23,8 @@
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.4.8",
     "com.unity.ugui": "1.0.0",
+    "com.unity.xr.interaction.toolkit": "2.0.2",
+    "com.unity.xr.magicleap": "6.4.1",
     "com.unity.xr.openxr": "1.4.2",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

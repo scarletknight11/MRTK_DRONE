@@ -63,6 +63,16 @@ public class DroneController : MonoBehaviour {
         UpdateDrone();
     }
 
+    public void Up()
+    {
+        transform.position += new Vector3(0, 0.5f, 0);
+    }
+
+    public void Down()
+    {
+        transform.position -= new Vector3(0, 0.5f, 0);
+    }
+
     void UpdateDrone()
     {
 

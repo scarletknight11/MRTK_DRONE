@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour {
     {
         _MovingLeft._moving = true;
         _MovingLeft._interpolatingAsc = true;
-        _MovingLeft._direction = -1.0f;
+        _MovingLeft._direction = -0.1f;
     }
 
     public void EventOnLeftButtonReleased()
@@ -106,8 +106,8 @@ public class GameManager : MonoBehaviour {
     public void EventOnRightButtonPressed()
     {
         _MovingLeft._moving = false;
-        _MovingLeft._interpolatingAsc = false;
-        _MovingLeft._direction = 1.0f;
+        _MovingLeft._interpolatingAsc = true;
+        _MovingLeft._direction = 0.1f;
     }
 
     public void EventOnRightButtonReleased()
@@ -120,7 +120,7 @@ public class GameManager : MonoBehaviour {
     {
         _MovingBack._moving = true;
         _MovingBack._interpolatingAsc = true;
-        _MovingBack._direction = -1.0f;
+        _MovingBack._direction = -0.1f;
     }
 
     public void EventOnBackButtonReleased()
@@ -133,7 +133,7 @@ public class GameManager : MonoBehaviour {
     {
         _MovingBack._moving = true;
         _MovingBack._interpolatingAsc = true;
-        _MovingBack._direction = 1.0f;
+        _MovingBack._direction = 0.1f;
     }
 
     public void EventOnForwardButtonReleased()
